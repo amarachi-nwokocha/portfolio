@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!---fontawesome icon-->
+    <script src="https://kit.fontawesome.com/ba375fe002.js" crossorigin="anonymous"></script>
+    <!--AOS link-->
+    <link rel="stylesheet" href="./aos/aos.css">
+    <title>Amarachi</title>
+  </head>
+  <body>
+    <!--nav begins-->
+    <nav>
+      <div class="logo">
+         Amarachi
+      </div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+      <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+         <!-- <li><a class="active" href="#">Home</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Services</a></li>
+         <li><a href="#">Gallery</a></li>
+         <li><a href="#">Feedback</a></li> -->
+
+
+         <li><a  href="#about">About</a></li>
+            <li><a class="nav" href="#projects">Projects</a></li>
+            <li><a class="nav" href="#contact">Contact</a></li>
+            <li><a class="nav" href="#footer">Socials</a></li>
+      </ul>
+   </nav>
+  
+
+    <!--nav ends-->
+    <div class="hero-sec">
+      <h1>Nwokocha Amara</h1>
+      <p>Fronted Developer</p>
+    </div>
+    <div data-aos="fade-up" id="about" class="about">
+      <p>
+        I am a chinese speaking front-end developer who loves to build beautiful
+        and responsive websites for users to interact with. I am very passionate
+        about translating designs into codes while paying rapt attention to
+        accessiblity, thereby providing a friendly interface that would to meet
+        users' needs. I possess skills in React, Bootstrap, HTML5, CSS3,
+        Javascript, Git and Github. I am open to learning new skills and
+        colaborating on projects to help improve myself as a developer.
+      </p>
+    </div>
+    <div data-aos="fade-up" class="top">
+      <i class="fa-solid fa-code head-icon"></i>
+      <h2 class='project-heading'>Projects</h2>
+    </div>
+    <div id="projects" class="card-cotainer">
+      <div data-aos="fade-right" class="card">
+        <a
+          target="_blank"
+          href="https://remarkable-kitsune-c5aa29.netlify.app/"
+        >
+          <img class="img" src="./images/bootstrap.PNG" alt="" srcset="" />
+        </a>
+        <p class="header">Bootstap Page</p>
+        <p class="muted-info">
+          this is a project built with ReactJs and ReactBootstrap it is a
+          responsive dashboard.
+        </p>
+      </div>
+      <div data-aos="fade-left" class="card">
+        <a
+          target="_blank"
+          href="https://remarkable-kitsune-c5aa29.netlify.app/"
+        >
+          <img class="img" src="./images/sunnyside.PNG" alt="" srcset="" />
+        </a>
+        <p class="header">Sunnyside</p>
+        <p class="muted-info">
+          this is a colorful one page project built with ReactJs and ReactBootstrap.
+          
+        </p>
+      </div>
+      <div data-aos="fade-right" class="card">
+        <a target="_blank" href="https://react-db.vercel.app/">
+          <img class="img" src="./images/react-db.PNG" alt="" srcset="" />
+        </a>
+        <p class="header">Job filter</p>
+        <p class="muted-info">
+          This is a job filtering project built with ReactJs
+        </p>
+      </div>
+      <div data-aos="fade-left" class="card">
+        <a target="_blank" href="https://static-responsive.vercel.app/">
+          <img class="img" src="./images/time-tracker.PNG" alt="" srcset="" />
+        </a>
+        <p class="header">Time trackere</p>
+        <p class="muted-info">
+          this is a time-tracking project built with ReactJs
+        </p>
+      </div>
+      <div data-aos="fade-right" class="card">
+        <a target="_blank" href="https://theme-switcher-six.vercel.app/">
+          <img class="img" src="./images/theme-switcher.PNG" alt="" srcset="" />
+        </a>
+        <p class="header">Theme toggle</p>
+        <p class="muted-info">
+          this is a project built with Javascript it toggles between light and dark mode 
+        </p>
+      </div>
+      <div data-aos="fade-left" class="card">
+        <a target="_blank" href="https://semplice-master.netlify.app/">
+          <img class="img" src="./images/semplice.PNG" alt="" srcset="" />
+        </a>
+        <p class="header">Semplice</p>
+        <p class="muted-info">
+          This is semplice dashboard  uilt with bootsrap and CSS3.
+        </p>
+      </div>
+    </div>
+    <div data-aos="fade-right" id='contact'class="contact">
+      <div class="top-contact">
+        <i class="fa-solid fa-paper-plane"></i>
+        <h2 class="contact-header"></i>Contact Me</h2>
+      </div>
+      <div class="contact-id">
+        <div data-aos="fade-up" class='mobile'>
+          <i class="fa-solid fa-phone"></i>
+          <p>(+234) 7026 830 287</p>
+        </div>
+        <div data-aos="fade-up" class="email">
+          <i class="fa-solid fa-envelope"></i>
+          <p>nwokichaamarachi@gmail.com</p>
+        </div>
+      </div>
+    </div>
+    <footer data-aos="fade-up" id="footer">
+      <div class="icons">
+        <a href="http://github.com/amarachi-nwokocha" target="_blank" ><i class="fa-brands fa-github"></i></a>
+        <a href="http://twitter.com/The4th_Child" target="_blank" ><i class="fa-brands fa-twitter"></i></a>
+        <a href="http://www.instagram.com/the4th_child/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/amarachi-nwokocha-0ba3021b0/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="http://wa.me/+2347026830287" target="_blank" ><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </footer>
+    
+  </body>
+</html>
